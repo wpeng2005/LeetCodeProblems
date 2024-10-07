@@ -29,4 +29,18 @@ class ReverseList {
         return prev;
 
     }
+
+    //使用递归来解决该问题
+
+    public ListNode reverseList(ListNode head) {
+        return reverse(head,null);
+    }
+    public ListNode reverse(ListNode current,ListNode prev){
+        if(current==null){
+            return prev;
+        }
+        ListNode temp=current.next;
+        current.next=prev;
+        return reverse(temp,current);
+    }
 }
