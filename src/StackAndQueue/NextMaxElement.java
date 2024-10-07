@@ -1,4 +1,4 @@
-package Stack;
+package StackAndQueue;
 //LeetCode 496题  下一个最大元素
 public class NextMaxElement {
     //暴力求解，时间复杂度为O(n2)
