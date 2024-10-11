@@ -10,6 +10,7 @@ package Lists;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+//LeetCode     203题     移除链表元素
 class RemoveListsElements {
     public ListNode removeElements(ListNode head, int val) {
         ListNode dummynode=new ListNode(0);
