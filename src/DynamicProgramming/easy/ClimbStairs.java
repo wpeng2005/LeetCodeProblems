@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.easy;
 //LeetCode      70题     爬楼梯
 public class ClimbStairs {
 

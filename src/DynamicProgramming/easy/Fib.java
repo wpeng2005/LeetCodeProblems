@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.easy;
 
 //LeetCode  509题   斐波那契数列
 public class Fib {

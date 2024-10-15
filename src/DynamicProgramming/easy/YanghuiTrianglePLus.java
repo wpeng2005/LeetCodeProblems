@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.easy;
 //LeetCode  119题       杨辉三角||
 public class YanghuiTrianglePLus {
     public List<Integer> getRow(int rowIndex) {

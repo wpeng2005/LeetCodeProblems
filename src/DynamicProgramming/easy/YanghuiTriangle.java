@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.easy;
 
 //LeetCode      118题
 public class YanghuiTriangle {

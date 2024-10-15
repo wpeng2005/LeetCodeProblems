@@ -1,4 +1,4 @@
-package Array;
+package Array.easy;
 
 //LeetCode      27题     移除元素
 public class RemoveArrayElement {

@@ -1,4 +1,4 @@
-package Array;
+package Array.easy;
 
 //LeetCode  26题     删除有序数组中的重复元素
 public class RemoveArrayDuplicate {

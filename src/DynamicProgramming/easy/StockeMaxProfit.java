@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.easy;
 
 //LeetCode   121题   买卖股票的最佳时机
 public class StockeMaxProfit {

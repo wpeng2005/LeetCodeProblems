@@ -1,4 +1,4 @@
-package Array;
+package Array.easy;
 //LeetCode  389题        找不同
 public class FindTheDifferenceElement {
 
