@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 //LeetCode 222题        完全二叉树的节点数
 public class CountFullTreeNodes {
     //该方法是使用 二分查找+位运算

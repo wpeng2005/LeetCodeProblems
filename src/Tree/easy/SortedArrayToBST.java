@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 
 //LeetCode  108题       将有序数组转换成二叉搜索树
 public class SortedArrayToBST {

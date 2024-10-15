@@ -1,4 +1,4 @@
-package HashMap;
+package HashMap.easy;
 
 //LeetCode 219题     存在相同元素2
 public class ContainsDuplicate2 {

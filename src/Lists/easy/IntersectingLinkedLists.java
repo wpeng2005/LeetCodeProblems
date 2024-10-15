@@ -1,4 +1,4 @@
-package Lists;
+package Lists.easy;
 
 //LeetCode 160题 相交链表
 public class IntersectingLinkedLists {

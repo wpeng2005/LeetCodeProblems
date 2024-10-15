@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 //LeetCode  112题      路径总和
 public class HasPathSum {
         public boolean hasPathSum(TreeNode root, int targetSum) {

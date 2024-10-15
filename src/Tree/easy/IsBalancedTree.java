@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 
 //LeetCode 110题     平衡二叉树
 public class IsBalancedTree {

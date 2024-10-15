@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 //LeetCode 111题     二叉树的最小深度
 public class MinDepth {
     public int minDepth(TreeNode root) {

@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 
 //LeetCode 104题        二叉树最大深度
 public class MaxDepth {

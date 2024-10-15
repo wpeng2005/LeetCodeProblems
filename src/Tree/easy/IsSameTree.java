@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 
 //LeetCode 100题  相同的树
 public class IsSameTree {

@@ -1,4 +1,4 @@
-package Tree;
+package Tree.easy;
 
 //LeetCode     101题     对称二叉树
 public class IsSymmetric {

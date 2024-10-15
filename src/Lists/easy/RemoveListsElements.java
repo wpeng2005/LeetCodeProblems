@@ -1,4 +1,4 @@
-package Lists;
+package Lists.easy;
 
 /**
  * Definition for singly-linked list.

@@ -1,4 +1,4 @@
-package HashMap;
+package HashMap.easy;
 
 //LeetCode 169题  多数元素
 public class MajorElement {

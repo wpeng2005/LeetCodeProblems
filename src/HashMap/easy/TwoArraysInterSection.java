@@ -1,4 +1,4 @@
-package HashMap;
+package HashMap.easy;
 //LeetCode  349题    两个数组的交集
 public class TwoArraysInterSection {
 

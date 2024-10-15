@@ -1,4 +1,4 @@
-package Sort;
+package Sort.easy;
 
 //LeetCode    88题         合并两个有序数组
 public class MergeTwoSortedArray {

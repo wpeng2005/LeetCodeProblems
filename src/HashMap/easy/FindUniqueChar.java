@@ -1,4 +1,4 @@
-package HashMap;
+package HashMap.easy;
 //LeetCode 387题        寻找字符串中第一个唯一字符
 public class FindUniqueChar {
     //这是使用哈希表统计频率

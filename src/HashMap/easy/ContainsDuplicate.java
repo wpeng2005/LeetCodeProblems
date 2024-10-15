@@ -1,4 +1,4 @@
-package HashMap;
+package HashMap.easy;
 
 //LeetCode 217题 存在重复元素
 public class ContainsDuplicate {
