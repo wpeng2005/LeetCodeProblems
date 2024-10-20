@@ -1,6 +1,24 @@
 package Tree.medium;
 //  114题       二叉树展开为链表
 public class FlattenToLinkedList {
+    //最优解，执行时间0ms
+    public void flatten(TreeNode root) {
+        while(root!=null){
+            if(root.left==null){
+                root=root.right;
+            }else{
+                TreeNode pre=root.left;
+                while(pre.right!=null){
+                    pre=pre.right;
+                }
+                pre.right=root.right;
+                root.right=root.left;
+                root.left=null;
+                root=root.right;
+            }
+        }
+    }
+    //暴力解法
     public void flatten(TreeNode root) {
         if(root==null){
             return;
