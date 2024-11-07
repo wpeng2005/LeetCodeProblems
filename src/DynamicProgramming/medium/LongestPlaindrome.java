@@ -51,6 +51,7 @@ public class LongestPlaindrome {
         }
         return s.substring(left, right + 1);// 左闭右开
     }
+    //动态规划
     class Solution {
         public String longestPalindrome(String s) {
             int len = s.length();

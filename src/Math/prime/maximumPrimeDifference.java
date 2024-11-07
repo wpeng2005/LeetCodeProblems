@@ -1,4 +1,4 @@
-package Math;
+package Math.prime;
 //    3115题   质数的最大距离
 public class maximumPrimeDifference {
     public int maximumPrimeDifference(int[] nums) {
