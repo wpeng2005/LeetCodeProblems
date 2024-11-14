@@ -1,6 +1,17 @@
 package Math;
 //   633题   平方数之和
 public class JudgeSquareSum {
+    //使用sqrt函数
+    public boolean judgeSquareSumBySqrt(int c) {
+        for (long a = 0; a * a <= c; a++) {
+            double b = Math.sqrt(c - a * a);
+            if (b == (int) b) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     //双指针
     public boolean judgeSquareSumByDoublePointer(int c) {
         long left=0;
