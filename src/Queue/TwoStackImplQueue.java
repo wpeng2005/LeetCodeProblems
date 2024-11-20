@@ -1,4 +1,4 @@
-package StackAndQueue.easy;
+package Queue;
 /**
  * Your MyQueue object will be instantiated and called as such:
  * MyQueue obj = new MyQueue();

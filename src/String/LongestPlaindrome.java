@@ -1,4 +1,4 @@
-package string;
+package String;
 //LeetCode     409题     最长回文串
 public class LongestPlaindrome {
     public int longestPalindrome(String s) {
