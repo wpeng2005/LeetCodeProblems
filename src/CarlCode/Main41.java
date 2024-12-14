@@ -20,31 +20,29 @@ public class Main41 {
             int updateRow=sc.nextInt();
             int updateCol=sc.nextInt();
             if(updateRow<0 || updateRow>=rows || updateCol<0 || updateCol>=cols){
-                System.out.println(getIslands(arr,rows,cols,uf));
-            }else{
-                arr[updateRow][updateCol]=1;
-                System.out.println(getIslands(arr,rows,cols,uf));
+                System.out.println(uf.getNumsOfIslands());
+                continue;
             }
+            if(arr[updateRow][updateCol]==1){
+                System.out.println(uf.getNumsOfIslands());
+                continue;
+            }
+            arr[updateRow][updateCol]=1;
+            System.out.println(getIslands(arr,rows,cols,uf,updateRow,updateCol));
         }
     }
-    public static int getIslands(int[][] arr,int rows,int cols,UnionFind uf){
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<cols;j++){
-                if(arr[i][j]==1){
-                    int pos=i*cols+j;
-                    uf.add(pos);
-                    for(int k=0;k<4;k++){
-                        int newRow=i+dRow[k];
-                        int newCol=j+dCol[k];
-                        if(newRow>=0 && newRow<rows && newCol>=0 && newCol<cols && arr[newRow][newCol]==1){
-                            uf.add(newRow*cols+newCol);
-                            uf.merge(pos,newRow*cols+newCol);
-                        }
-                    }
-                }
-
+    public static int getIslands(int[][] arr,int rows,int cols,UnionFind uf,int curRow,int curCol){
+        int pos=curRow*cols+curCol;
+        uf.add(pos);
+        for (int k = 0; k < 4; k++) {
+            int newRow = curRow + dRow[k];
+            int newCol = curCol + dCol[k];
+            if (newRow >= 0 && newRow < rows && newCol >= 0 && newCol < cols && arr[newRow][newCol] == 1) {
+                uf.add(newRow * cols + newCol);
+                uf.merge(pos, newRow * cols + newCol);
             }
         }
+
         return uf.getNumsOfIslands();
     }
 
